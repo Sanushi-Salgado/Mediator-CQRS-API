@@ -1,0 +1,15 @@
+D:\Workspaces\NETDemo\Domain\bin\Debug\net5.0\NETDemo.Domain.deps.json
+D:\Workspaces\NETDemo\Domain\bin\Debug\net5.0\NETDemo.Domain.dll
+D:\Workspaces\NETDemo\Domain\bin\Debug\net5.0\ref\NETDemo.Domain.dll
+D:\Workspaces\NETDemo\Domain\bin\Debug\net5.0\NETDemo.Domain.pdb
+D:\Workspaces\NETDemo\Domain\bin\Debug\net5.0\NETDemo.Data.dll
+D:\Workspaces\NETDemo\Domain\bin\Debug\net5.0\NETDemo.Data.pdb
+D:\Workspaces\NETDemo\Domain\obj\Debug\net5.0\NETDemo.Domain.csproj.AssemblyReference.cache
+D:\Workspaces\NETDemo\Domain\obj\Debug\net5.0\NETDemo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\NETDemo\Domain\obj\Debug\net5.0\NETDemo.Domain.AssemblyInfoInputs.cache
+D:\Workspaces\NETDemo\Domain\obj\Debug\net5.0\NETDemo.Domain.AssemblyInfo.cs
+D:\Workspaces\NETDemo\Domain\obj\Debug\net5.0\NETDemo.Domain.csproj.CoreCompileInputs.cache
+D:\Workspaces\NETDemo\Domain\obj\Debug\net5.0\NETDemo.Domain.csproj.CopyComplete
+D:\Workspaces\NETDemo\Domain\obj\Debug\net5.0\NETDemo.Domain.dll
+D:\Workspaces\NETDemo\Domain\obj\Debug\net5.0\ref\NETDemo.Domain.dll
+D:\Workspaces\NETDemo\Domain\obj\Debug\net5.0\NETDemo.Domain.pdb

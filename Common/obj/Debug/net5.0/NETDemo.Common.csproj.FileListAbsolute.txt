@@ -1,0 +1,12 @@
+D:\Workspaces\NETDemo\Common\bin\Debug\net5.0\NETDemo.Common.deps.json
+D:\Workspaces\NETDemo\Common\bin\Debug\net5.0\NETDemo.Common.dll
+D:\Workspaces\NETDemo\Common\bin\Debug\net5.0\ref\NETDemo.Common.dll
+D:\Workspaces\NETDemo\Common\bin\Debug\net5.0\NETDemo.Common.pdb
+D:\Workspaces\NETDemo\Common\obj\Debug\net5.0\NETDemo.Common.csproj.AssemblyReference.cache
+D:\Workspaces\NETDemo\Common\obj\Debug\net5.0\NETDemo.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\NETDemo\Common\obj\Debug\net5.0\NETDemo.Common.AssemblyInfoInputs.cache
+D:\Workspaces\NETDemo\Common\obj\Debug\net5.0\NETDemo.Common.AssemblyInfo.cs
+D:\Workspaces\NETDemo\Common\obj\Debug\net5.0\NETDemo.Common.csproj.CoreCompileInputs.cache
+D:\Workspaces\NETDemo\Common\obj\Debug\net5.0\NETDemo.Common.dll
+D:\Workspaces\NETDemo\Common\obj\Debug\net5.0\ref\NETDemo.Common.dll
+D:\Workspaces\NETDemo\Common\obj\Debug\net5.0\NETDemo.Common.pdb

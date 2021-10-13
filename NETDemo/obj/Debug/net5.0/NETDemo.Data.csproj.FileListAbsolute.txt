@@ -1,0 +1,15 @@
+D:\Workspaces\NETDemo\NETDemo\bin\Debug\net5.0\NETDemo.Data.deps.json
+D:\Workspaces\NETDemo\NETDemo\bin\Debug\net5.0\NETDemo.Data.runtimeconfig.json
+D:\Workspaces\NETDemo\NETDemo\bin\Debug\net5.0\NETDemo.Data.runtimeconfig.dev.json
+D:\Workspaces\NETDemo\NETDemo\bin\Debug\net5.0\NETDemo.Data.dll
+D:\Workspaces\NETDemo\NETDemo\bin\Debug\net5.0\ref\NETDemo.Data.dll
+D:\Workspaces\NETDemo\NETDemo\bin\Debug\net5.0\NETDemo.Data.pdb
+D:\Workspaces\NETDemo\NETDemo\obj\Debug\net5.0\NETDemo.Data.csproj.AssemblyReference.cache
+D:\Workspaces\NETDemo\NETDemo\obj\Debug\net5.0\NETDemo.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\NETDemo\NETDemo\obj\Debug\net5.0\NETDemo.Data.AssemblyInfoInputs.cache
+D:\Workspaces\NETDemo\NETDemo\obj\Debug\net5.0\NETDemo.Data.AssemblyInfo.cs
+D:\Workspaces\NETDemo\NETDemo\obj\Debug\net5.0\NETDemo.Data.csproj.CoreCompileInputs.cache
+D:\Workspaces\NETDemo\NETDemo\obj\Debug\net5.0\NETDemo.Data.dll
+D:\Workspaces\NETDemo\NETDemo\obj\Debug\net5.0\ref\NETDemo.Data.dll
+D:\Workspaces\NETDemo\NETDemo\obj\Debug\net5.0\NETDemo.Data.pdb
+D:\Workspaces\NETDemo\NETDemo\obj\Debug\net5.0\NETDemo.Data.genruntimeconfig.cache
