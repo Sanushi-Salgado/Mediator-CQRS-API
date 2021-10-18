@@ -12,6 +12,7 @@ namespace NETDemo.Data.Models.DatabaseModels
         public string last_name { get; set; }
         public string country_code { get; set; }
         public string contact_no { get; set; }
+        public string email { get; set; }
         public DateTime created_at { get; set; }
         public DateTime? updated_at { get; set; }
     }

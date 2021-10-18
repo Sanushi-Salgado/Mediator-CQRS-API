@@ -9,7 +9,7 @@ using NETDemo.Domain.Handlers.QueryHandlers;
 using System;
 using System.Threading.Tasks;
 
-namespace NETDemo.Service.Controllers
+namespace NETDemo.Service.Controllers.v1
 {
     //[Route("api/[controller]")]
     //[Route("api/customers")]
@@ -17,18 +17,24 @@ namespace NETDemo.Service.Controllers
     //[Route("v{v:apiVersion}/customers")] // Using URL versioning
     [Route("customers")]
     [ApiController]
-    public class CustomerV1_0Controller : ControllerBase
+    public class CustomerController : ControllerBase
     {
         private readonly ICustomerRepository _repository;
         private readonly IMediator _mediator;
-        private readonly ILogger<CustomerV1_0Controller> _logger; // Indicate the class name from where the error is coming
+        private readonly ILogger<CustomerController> _logger; // Indicate the class name from where the error is coming
 
-        public CustomerV1_0Controller(ICustomerRepository repository, IMediator mediator, ILogger<CustomerV1_0Controller> logger)
+        public CustomerController(ICustomerRepository repository, IMediator mediator)
         {
             _repository = repository;
             _mediator = mediator;
-            _logger = logger;
         }
+
+        //public CustomerV1_0Controller(ICustomerRepository repository, IMediator mediator, ILogger<CustomerV1_0Controller> logger)
+        //{
+        //    _repository = repository;
+        //    _mediator = mediator;
+        //    _logger = logger;
+        //}
 
 
         /// <summary>
@@ -48,7 +54,6 @@ namespace NETDemo.Service.Controllers
 
                 var result = await _mediator.Send(new GetAllCustomersQuery());
                 if (result != null)
-                    //return Ok();
                     return Ok(new { success = true, message = "Customers retreived successfully!", customers_list = result });
                 else
                     return NoContent();
@@ -78,10 +83,9 @@ namespace NETDemo.Service.Controllers
         /// </remarks>
         /// <param name="id">Refers to the customer id</param>
         /// <returns>The details of a single customer</returns>
-        // GET: api/customer/5
-        //[HttpGet("{id}")]
+        // GET: api/customers/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetCustomer(int id)
+        public async Task<IActionResult> GetCustomerById(int id)
         {
             try
             {
@@ -123,14 +127,14 @@ namespace NETDemo.Service.Controllers
 
 
         /// <summary>
-        /// Update an existing user
+        /// Update an existing customer
         /// </summary>
         /// <remarks>
         /// Update the details of an existing customer using the customer id
         /// </remarks>
         /// <param name="id">Refers to the customer id</param>
         /// <returns></returns>
-        // PUT: api/customer/1
+        // PUT: api/customers/1
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCustomer([FromRoute] int id, [FromBody] UpdateCustomerModel model)
         {

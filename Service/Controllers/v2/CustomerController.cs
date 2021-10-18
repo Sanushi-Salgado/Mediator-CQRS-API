@@ -7,20 +7,20 @@ using NETDemo.Domain.Handlers.QueryHandlers;
 using System;
 using System.Threading.Tasks;
 
-namespace NETDemo.Service.Controllers
+namespace NETDemo.Service.Controllers.v2
 {
     //[Route("api/[controller]")]
     [ApiVersion("2.0")]
     //[Route("v{v:apiVersion}/customers")]  // Using URL versioning
     [Route("customers")]
     [ApiController]
-    public class CustomerV2_0Controller : ControllerBase
+    public class CustomerController : ControllerBase
     {
         private readonly ICustomerRepository _repository;
         private readonly IMediator _mediator;
-        private readonly ILogger<CustomerV2_0Controller> _logger;
+        private readonly ILogger<CustomerController> _logger;
 
-        public CustomerV2_0Controller(ICustomerRepository repository, IMediator mediator, ILogger<CustomerV2_0Controller> logger)
+        public CustomerController(ICustomerRepository repository, IMediator mediator, ILogger<CustomerController> logger)
         {
             _repository = repository;
             _mediator = mediator;

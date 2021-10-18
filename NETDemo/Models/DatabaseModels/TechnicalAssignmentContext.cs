@@ -1,6 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 
 #nullable disable
 
@@ -52,6 +50,10 @@ namespace NETDemo.Data.Models.DatabaseModels
                     .IsUnicode(false);
 
                 entity.Property(e => e.created_at).HasColumnType("datetime");
+
+                entity.Property(e => e.email)
+                    .HasMaxLength(30)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.first_name)
                     .IsRequired()

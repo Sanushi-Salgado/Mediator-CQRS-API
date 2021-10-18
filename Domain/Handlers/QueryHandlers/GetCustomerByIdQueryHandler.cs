@@ -19,7 +19,7 @@ namespace NETDemo.Domain.Handlers.QueryHandlers
 
             public async Task<CustomerResponse> Handle(GetCustomerByIdQuery query, CancellationToken cancellationToken)
             {
-                return await _repository.GetCustomer(query.CustomerId);
+                return await _repository.GetCustomerById(query.CustomerId);
             }
         }
     }

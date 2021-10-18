@@ -9,11 +9,6 @@ namespace NETDemo.Domain.Handlers.CommandHandlers
 {
     public class CreateCustomerCommand : IRequest<Customer>
     {
-        //public string FirstName { get; set; }
-        //public string LastName { get; set; }
-        //public string CountryCode { get; set; }
-        //public string ContactNo { get; set; }
-
         public AddCustomerModel Model { get; }
 
         public CreateCustomerCommand(AddCustomerModel model)
@@ -35,6 +30,7 @@ namespace NETDemo.Domain.Handlers.CommandHandlers
                 customer.last_name = command.Model.LastName;
                 customer.country_code = command.Model.CountryCode;
                 customer.contact_no = command.Model.ContactNo;
+                customer.email = command.Model.Email;
 
                 return await _repository.AddCustomer(customer);
             }
